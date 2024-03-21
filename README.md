@@ -1,5 +1,5 @@
 # Take-Home Exercise Overview
-## Objective: 
+## Objective:
 Implement a Python application that pulls data from a public API, stores it in a SQLite database, and incorporates database migration for schema evolution. The project should use Poetry for dependency management and enforce code quality through pre-commit hooks.
 
 ## Duration: 4-6 hours.
