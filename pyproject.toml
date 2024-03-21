@@ -1,0 +1,27 @@
+[tool.poetry]
+package-mode = true
+name = "integrations-take-home"
+version = "1.0.0"
+description = "A part of technical assessment for Second Nature application"
+authors = ["Ben Nowak <47954098+bencodesall@users.noreply.github.com>"]
+license = "Proprietary"
+readme = "README.md"
+repository = "https://github.com/bencodesall/integration-take-home"
+classifiers = ["Private :: Do Not Upload"]
+
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+SQLAlchemy = "^2.0.28"
+requests = "^2.31.0"
+alembic = "^1.13.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+flake8 = "^7.0.0"
+pre-commit = "^3.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
